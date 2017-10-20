@@ -14,7 +14,9 @@ body{
     text-align: right;
 }
 
-
+a{
+    color: #399bd1;
+}
 
 
 .jumbotron-bike {
@@ -115,5 +117,8 @@ h5{
     margin: 5.2rem;
 }
 @media (max-width: @screen-sm) {
-    h1{font-size: 5.7rem;}
+    h1{font-size: 3rem;}
 }
+
+
+
