@@ -27,6 +27,7 @@ a{
     background-position: center;
     height: 44rem;;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .mono {
@@ -116,9 +117,7 @@ h5{
     text-align: center;
     margin: 5.2rem;
 }
-@media (max-width: @screen-sm) {
-    h1{font-size: 3rem;}
-}
+
 
 
 
