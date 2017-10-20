@@ -4,11 +4,6 @@ body{
     
 }
 
-.active:active {
-    color: red;
-    background-color: green;
-}
-
 .logo {
     margin-top: 10px;
     text-align: right;
@@ -17,25 +12,21 @@ body{
 a{
     color: #399bd1;
 }
-
-
-.jumbotron-bike {
-    display: flex;
-     background-image: url('/resources/images/jumbotron-bike.jpg') ;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    height: 44rem;;
-    justify-content: center;
-    margin-top: 1rem;
+.jumbotron-bike p {
+    margin: 2.4rem;
+}
+.jumbotron-bike h1, .thinking h1 ,  .creating h1, .started h1{
+    color: white !important;
 }
 
-.mono {
+
+
+.mono, .thinking h1,  .creating h1, .started h1{
     color: aqua;
     font-family: Monoton;
     font-size: 160px;
 }
-.jumbotron .h1, .jumbotron h1 {
+.jumbotron .h1, .jumbotron-bike h1, .thinking h1 ,  .creating h1, .started h1{
    font-family: Monoton;
     font-size: 7.1rem;
     color: white;
@@ -56,6 +47,7 @@ h5{
     color: rgba(0,0,0,0.7);
 }
 .project {
+    font-family: monotono;
     color: blue;
     font-weight: 1.7rem;
     font-weight: bold;
@@ -77,12 +69,12 @@ h5{
     margin-bottom: 1.4rem;
 }
 
-.get-going {
+#get-going {
      text-align: center;
      margin-top: 5rem;
 }
 .btn{
-    margin-top: 2.8rem;
+    
     width: 11.4rem;
     background-color: #399bd1;
     box-shadow: 0 0 3px rgba(0,0,0, 0.5);
@@ -99,13 +91,13 @@ h5{
     
 }
 .image-container{
-    opacity: 0.6;
-    transition: all 1s ease;
+    opacity: 0.5;
+    transition: all 0.5s ease;
     
 }
 .image-container:hover{
     opacity: 1;
-    transform: scale(1.05);
+    transform: scale(1.06);
 }
 
 .projects-container {
@@ -117,7 +109,41 @@ h5{
     text-align: center;
     margin: 5.2rem;
 }
+.col-footer h5{
+    margin: 1.4rem;
 
-
-
+}
+.jumbotron {
+    background-image: url('/resources/images/jumbotron-bike.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 44rem !important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    text-align: center;
+}
+.thinking {
+    background-image: url("/resources/images/jumbotron-beer.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 44rem !important;
+    
+    
+}
+.creating {
+    background-image: url("/resources/images/jumbotron-flowers.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 44rem !important;
+    
+}
+.started {
+    background-image: url("/resources/images/jumbotron-duffel.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 44rem !important;
+    
+}
 
