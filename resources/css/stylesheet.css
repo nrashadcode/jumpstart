@@ -117,6 +117,9 @@ a {
     margin: 1.4rem;
 
 }
+.hide{
+    height: 0px;
+}
 .jumbotron {
     background-image: url('../images/jumbotron-bike.jpg') ;
     background-repeat: no-repeat;
@@ -133,13 +136,13 @@ a {
     background-position: center;
     height: 44rem !important;
     
-    
 }
 .creating {
     background-image: url("../images/jumbotron-flowers.jpg");
     background-size: cover;
     background-position: center;
     height: 44rem !important;
+    
     
 }
 .started {
@@ -153,6 +156,7 @@ a {
     .jumbotron .h1, .jumbotron-bike h1, .thinking h1 ,  .creating h1, .started h1 {
         font-size: 5.2rem;
     }
+
 }
 
     

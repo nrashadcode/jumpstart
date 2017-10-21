@@ -6361,6 +6361,9 @@ button.close {
   outline: 0;
   opacity: .9;
 }
+$('.carousel').carousel({
+    pause: "false"
+});
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-left,
