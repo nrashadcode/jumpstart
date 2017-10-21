@@ -114,7 +114,7 @@ h5{
 
 }
 .jumbotron {
-    background-image: url('/resources/images/jumbotron-bike.jpg') ;
+    background-image: url('./resources/images/jumbotron-bike.jpg') ;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -124,7 +124,7 @@ h5{
     text-align: center;
 }
 .thinking {
-    background-image: url("/resources/images/jumbotron-beer.jpg");
+    background-image: url("./resources/images/jumbotron-beer.jpg");
     background-size: cover;
     background-position: center;
     height: 44rem !important;
@@ -132,14 +132,14 @@ h5{
     
 }
 .creating {
-    background-image: url("/resources/images/jumbotron-flowers.jpg");
+    background-image: url("./resources/images/jumbotron-flowers.jpg");
     background-size: cover;
     background-position: center;
     height: 44rem !important;
     
 }
 .started {
-    background-image: url("/resources/images/jumbotron-duffel.jpg");
+    background-image: url("./resources/images/jumbotron-duffel.jpg");
     background-size: cover;
     background-position: center;
     height: 44rem !important;
