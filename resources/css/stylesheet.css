@@ -46,6 +46,10 @@ h5{
     line-height: 1.4rem;
     color: rgba(0,0,0,0.7);
 }
+a {
+    font-weight: 600
+}
+
 .project {
     font-family: monotono;
     color: blue;
